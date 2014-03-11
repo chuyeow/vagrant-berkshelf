@@ -4,6 +4,9 @@ gemspec
 
 group :development do
   gem 'vagrant', github: "mitchellh/vagrant"
+end
+
+group :guard do
   gem 'coolline'
   gem 'guard', '>= 1.5.0'
   gem 'guard-rspec'
